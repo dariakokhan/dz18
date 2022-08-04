@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    .main{
+    background-image: url(n.jpg);
+    background-size: cover;
+    height: 100vh;
+    padding-top: 12px;
+    }
+
+    .content{
+        width: 1320px;
+        font-family: 'Open Sans', sans-serif;
+        margin: auto;
+    }
+
+    .top-menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 120px;
+
+    }
+
+    .logo{
+        font-size: 40px;
+        color: white;
+    }
+
+    .links{
+        display: flex;
+        gap: 19px;
+    
+    }
+
+    .link{
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+
+    }
+
+    .link:hover{
+        color: yellow;
+    }
+
+    .offer{
+        color: white;
+        text-align: center;
+    }
+    .offer{
+        font-size: 48px;
+    }
+    .top-btn{
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+        padding: 9px 20px;
+        border: 2px solid yellow;
+        display: inline-block;
+        border-radius: 5px;
+    }
+    
